@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "description": "app making ",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "serve": "nodemon server.js"
+  },
+  "author": "shaunak mahajan",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.0.5",
+    "express": "^4.17.1",
+    "node": "^14.5.0",
+    "prompt": "^1.0.0",
+    "save": "^2.4.0",
+    "smalltalk": "^4.0.6",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

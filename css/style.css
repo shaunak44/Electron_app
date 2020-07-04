@@ -1,0 +1,100 @@
+.container{
+    max-width: 955px;
+    background-color: red;
+    margin: auto;
+    height: 300px;
+    padding: 2%;
+    overflow-y: scroll;
+    border-style: solid;
+    border-radius: 5px;
+    background-image: linear-gradient(-45deg,rgb(128, 128, 226), rgb(198, 130, 238));
+    margin-bottom: 5px;
+}
+
+body{
+    background-image: linear-gradient(white, black);
+}
+
+ h1{
+     margin-top: 12px;
+     font-size: 25px;
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+.username{
+    max-width: 955px;
+    background-color:rgb(104, 104, 184);
+    margin: auto;
+    height: 50px;
+    padding: 2%;
+    border-style: solid;
+    border-color: coral;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.message{
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.center{
+    float: center;
+    clear: both;
+}
+
+#send-container {
+    text-align: center;
+    max-width: 955px;
+    margin: auto;
+    padding:25px;
+    background-color: darkseagreen;
+    border-style: solid;
+    border-radius: 5px;
+    
+}
+
+#send_button {
+    border-style: solid;
+    border-radius: 5px;
+    margin: auto;
+}
+#messageInp{
+    width:600px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#user-name {
+    max-width:900px;
+    text-align: center;
+    margin: auto;
+}
+
+#user_message{
+    width:600px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#username_button{
+    border-style: solid;
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8"> 
+    <title>ChatApp</title> 
+    <link rel="stylesheet" href="css/style.css">
+  </head> 
+  <body> 
+    <h1>Welcome to the electron chat app</h1>
+    <div class="username">
+      <form action="#" id="user-name">
+        <input type="text" name="user_message" id="user_message" placeholder="Enter the username for joining chat...">
+        <button class="btn" type="submit" id="username_button">click here!</button>
+      </form>
+    </div>
+    <div class="container">
+        
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Type your message">
+            <button class="btn" type="submit" id="send_button">Send</button>
+        </form>
+    </div>
+    <script>
+      require('./client.js')
+      //require('./server.js')
+    </script>
+  </body> 
+</html> 
