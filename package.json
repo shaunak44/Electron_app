@@ -16,7 +16,7 @@
     "prompt": "^1.0.0",
     "save": "^2.4.0",
     "smalltalk": "^4.0.6",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
